@@ -25,8 +25,8 @@ public class RnHomePageSqlProvider {
             sql.VALUES("cover", "#{cover,jdbcType=VARCHAR}");
         }
         
-        if (record.getIndex() != null) {
-            sql.VALUES("index", "#{index,jdbcType=INTEGER}");
+        if (record.getRnIndex() != null) {
+            sql.VALUES("rn_index", "#{rnIndex,jdbcType=INTEGER}");
         }
         
         return sql.toString();
@@ -52,8 +52,8 @@ public class RnHomePageSqlProvider {
             sql.SET("cover = #{cover,jdbcType=VARCHAR}");
         }
         
-        if (record.getIndex() != null) {
-            sql.SET("index = #{index,jdbcType=INTEGER}");
+        if (record.getRnIndex() != null) {
+            sql.SET("rn_index = #{rnIndex,jdbcType=INTEGER}");
         }
         
         sql.WHERE("id = #{id,jdbcType=INTEGER}");

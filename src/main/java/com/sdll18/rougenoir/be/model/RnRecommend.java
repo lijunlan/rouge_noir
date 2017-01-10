@@ -7,7 +7,7 @@ public class RnRecommend {
 
     private Integer commodityId;
 
-    private Integer index;
+    private Integer rnIndex;
 
     private Date createTime;
 
@@ -29,12 +29,12 @@ public class RnRecommend {
         this.commodityId = commodityId;
     }
 
-    public Integer getIndex() {
-        return index;
+    public Integer getRnIndex() {
+        return rnIndex;
     }
 
-    public void setIndex(Integer index) {
-        this.index = index;
+    public void setRnIndex(Integer rnIndex) {
+        this.rnIndex = rnIndex;
     }
 
     public Date getCreateTime() {

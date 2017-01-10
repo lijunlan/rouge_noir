@@ -23,4 +23,25 @@ public class RnRelationshipCcSqlProvider {
         
         return sql.toString();
     }
+
+    public String updateByPrimaryKeySelective(RnRelationshipCc record) {
+        SQL sql = new SQL();
+        sql.UPDATE("rn_relationship_cc");
+        
+        if (record.getCommodityId() != null) {
+            sql.SET("commodity_id = #{commodityId,jdbcType=INTEGER}");
+        }
+        
+        if (record.getCategoryId() != null) {
+            sql.SET("category_id = #{categoryId,jdbcType=INTEGER}");
+        }
+        
+        if (record.getCreateTime() != null) {
+            sql.SET("create_time = #{createTime,jdbcType=TIMESTAMP}");
+        }
+        
+        sql.WHERE("id = #{id,jdbcType=INTEGER}");
+        
+        return sql.toString();
+    }
 }

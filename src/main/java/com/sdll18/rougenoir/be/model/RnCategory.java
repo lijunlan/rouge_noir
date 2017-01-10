@@ -7,7 +7,7 @@ public class RnCategory {
 
     private Integer parentId;
 
-    private Integer index;
+    private Integer rnIndex;
 
     public Integer getId() {
         return id;
@@ -33,11 +33,11 @@ public class RnCategory {
         this.parentId = parentId;
     }
 
-    public Integer getIndex() {
-        return index;
+    public Integer getRnIndex() {
+        return rnIndex;
     }
 
-    public void setIndex(Integer index) {
-        this.index = index;
+    public void setRnIndex(Integer rnIndex) {
+        this.rnIndex = rnIndex;
     }
 }

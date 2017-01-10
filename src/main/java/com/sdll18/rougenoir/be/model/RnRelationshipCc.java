@@ -3,13 +3,21 @@ package com.sdll18.rougenoir.be.model;
 import java.util.Date;
 
 public class RnRelationshipCc {
+    private Integer id;
+
     private Integer commodityId;
 
     private Integer categoryId;
 
     private Date createTime;
 
-    private Integer id;
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public Integer getCommodityId() {
         return commodityId;
@@ -33,13 +41,5 @@ public class RnRelationshipCc {
 
     public void setCreateTime(Date createTime) {
         this.createTime = createTime;
-    }
-
-    public Integer getId() {
-        return id;
-    }
-
-    public void setId(Integer id) {
-        this.id = id;
     }
 }

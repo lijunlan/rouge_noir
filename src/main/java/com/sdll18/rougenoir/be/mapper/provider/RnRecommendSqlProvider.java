@@ -13,8 +13,8 @@ public class RnRecommendSqlProvider {
             sql.VALUES("commodity_id", "#{commodityId,jdbcType=INTEGER}");
         }
         
-        if (record.getIndex() != null) {
-            sql.VALUES("index", "#{index,jdbcType=INTEGER}");
+        if (record.getRnIndex() != null) {
+            sql.VALUES("rn_index", "#{rnIndex,jdbcType=INTEGER}");
         }
         
         if (record.getCreateTime() != null) {
@@ -36,8 +36,8 @@ public class RnRecommendSqlProvider {
             sql.SET("commodity_id = #{commodityId,jdbcType=INTEGER}");
         }
         
-        if (record.getIndex() != null) {
-            sql.SET("index = #{index,jdbcType=INTEGER}");
+        if (record.getRnIndex() != null) {
+            sql.SET("rn_index = #{rnIndex,jdbcType=INTEGER}");
         }
         
         if (record.getCreateTime() != null) {
