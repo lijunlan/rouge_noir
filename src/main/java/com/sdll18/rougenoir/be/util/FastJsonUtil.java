@@ -5,8 +5,8 @@ import com.sdll18.rougenoir.be.constant.Code;
 
 public final class FastJsonUtil {
 
-    public static JSONObject error(int code) {
-        return error(code, "internal error");
+    public static JSONObject errorInternal() {
+        return error(Code.ERROR_INTERNAL, "internal error");
     }
 
 

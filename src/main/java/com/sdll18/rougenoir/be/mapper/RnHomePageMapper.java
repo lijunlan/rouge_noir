@@ -28,10 +28,9 @@ public interface RnHomePageMapper {
     int insertSelective(RnHomePage record);
 
     @Select({
-            "SELECT",
-            "id, commodity_id, description, title, cover, rn_index",
-            "from rn_home_page",
-            "where id = #{id,jdbcType=INTEGER}"
+            "SELECT id, commodity_id, description, title, cover, rn_index " +
+                    "FROM rn_home_page " +
+                    "WHERE id = #{id,jdbcType=INTEGER}"
     })
     @Results(id = "rnHomePage_whole",
             value = {
@@ -63,4 +62,5 @@ public interface RnHomePageMapper {
             "where id = #{id,jdbcType=INTEGER}"
     })
     int updateByPrimaryKey(RnHomePage record);
+
 }
