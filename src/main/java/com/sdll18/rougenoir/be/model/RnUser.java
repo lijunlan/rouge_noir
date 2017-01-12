@@ -19,6 +19,8 @@ public class RnUser {
 
     private Integer status;
 
+    private String username;
+
     public Integer getId() {
         return id;
     }
@@ -81,5 +83,13 @@ public class RnUser {
 
     public void setStatus(Integer status) {
         this.status = status;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username == null ? null : username.trim();
     }
 }

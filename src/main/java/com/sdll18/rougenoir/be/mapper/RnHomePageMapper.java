@@ -44,7 +44,7 @@ public interface RnHomePageMapper {
     RnHomePage selectByPrimaryKey(Integer id);
 
     @Select({
-            "SELECT id, commodity_id, description, title, cover, rn_index FROM rn_home_page"
+            "SELECT id, commodity_id, description, title, cover, rn_index FROM rn_home_page ORDER BY rn_index ASC"
     })
     @ResultMap(value = "rnHomePage_whole")
     List<RnHomePage> selectAll();

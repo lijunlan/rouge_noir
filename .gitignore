@@ -29,5 +29,3 @@ hs_err_pid*
 # Mac OS
 .DS_Store
 
-# My Shell
-transfer_config_simple.sh
