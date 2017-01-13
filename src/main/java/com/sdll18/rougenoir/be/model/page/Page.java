@@ -5,7 +5,7 @@ import com.alibaba.fastjson.JSONObject;
 import java.util.List;
 
 /**
- * Copyright (C) 2015 - 2017 SOHU FOCUS Inc., All Rights Reserved.
+ * Copyright (C) 2015 - 2017 JUNLAN LI All Rights Reserved.
  *
  * @Author: lijunlan888@gmail.com
  * @Date: 2017-01-04

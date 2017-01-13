@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Copyright (C) 2015 - 2016 SOHU FOCUS Inc., All Rights Reserved.
+ * Copyright (C) 2015 - 2016 JUNLAN LI All Rights Reserved.
  *
  * @Author: lijunlan888@gmail.com
  * @Date: 2016-11-08
