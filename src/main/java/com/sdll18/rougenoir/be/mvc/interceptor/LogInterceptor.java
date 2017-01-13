@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 /**
  * Copyright (C) 2015 - 2016 SOHU FOCUS Inc., All Rights Reserved.
  *
- * @Author: junlanli@sohu-inc.com
+ * @Author: lijunlan888@gmail.com
  * @Date: 2016-11-08
  */
 public class LogInterceptor extends HandlerInterceptorAdapter {

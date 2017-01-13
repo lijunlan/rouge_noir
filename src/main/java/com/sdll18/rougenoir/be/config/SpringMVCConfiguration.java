@@ -20,7 +20,7 @@ import java.util.List;
 /**
  * Copyright (C) 2015 - 2016 SOHU FOCUS Inc., All Rights Reserved.
  *
- * @Author: junlanli@sohu-inc.com
+ * @Author: lijunlan888@gmail.com
  * @Date: 2016-12-08
  */
 @Configuration
